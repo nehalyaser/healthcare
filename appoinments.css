@@ -1,0 +1,47 @@
+.slider{
+    padding: 2% 0%;
+}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot.active, .dot:hover {
+  background-color: #717171;
+}
+.connect-img{
+    width: 100%;
+}
+.connect-section:hover{
+    width: 150%;
+}
+.connect-section-title{
+    color: blue;
+}
+.connect-section{
+    margin-left: 10px;
+}
+.connect{
+    padding: 8% 0%;
+}
+.for-care-btn{
+    width: 30%;
+    background-color: rgb(4, 4, 204);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
